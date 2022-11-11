@@ -3,7 +3,7 @@ title: Happy Birthday lxl
 SEOTitle: Happy Birthday lxl
 header-img: img/mfs.jpg
 email: none
-description: "给时光以生命，给岁月以文明"
+description: "生日快乐！"
 keyword: "Happy Birthday lxl"
 url: "https://happybirthdaylxl.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -65,8 +65,8 @@ gitalk:
   clientID: 96633ccaa2f6d5309f20                          #生成的clientID
   clientSecret: ee45a59dcf7584ce4705f642ad45c622f563ebcc    #生成的clientSecret
   repo: bloggittalk    #仓库名称
-  owner: voiddreamz    #github用户名
-  admin: voiddreamz
+  owner: happybirthdaylxl    #github用户名
+  admin: happybirthdaylxl
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,7 +74,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: a0e3fdaf4aaebe29d89ee129260f694a
+ba_track_id: 0
 
 
 # Google Analytics
@@ -94,10 +94,3 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: false
-
-
-
-# Friends
-friends: [
-
-]
