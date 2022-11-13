@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'gilbert';
-    src: url('../fonts/gilbert.woff2') format('woff2'),
-         url('../fonts/gilbert.woff') format('woff');
+    src: url('https://43.140.220.166/fonts/gilbert.woff2') format('woff2'),
+         url('https://43.140.220.166/fonts/gilbert.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
