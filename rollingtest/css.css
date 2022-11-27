@@ -4,8 +4,8 @@ body{
     -webkit-user-select:none; user-select:none;
     -webkit-touch-callout:none; touch-callout:none;
 }
-html , body , .page_box{overflow:hidden;}
-.page.hide{ display:none;}
+html , body , .page_box{}
+.page.hide{display:none;}
 
 /*==================================*/
 
