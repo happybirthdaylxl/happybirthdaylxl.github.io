@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hi 某某某|祝你|生日快乐|happy birthday|#countdown 3||');
+      S.UI.simulate('Hi 刘欣兰|祝你|生日快乐|happy birthday|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
@@ -19,7 +19,7 @@ var S = {
       S.Shape.render();
       //console.log(m);
       if(m==700){
-        window.location.href="../html/BirthdayCake.html";
+        window.location.href="http://43.140.220.166/html/BirthdayCake.html";
       }
     });
 
@@ -575,7 +575,7 @@ S.ShapeBuilder = (function () {
 
       setFontSize(fontSize);
       s = Math.min(fontSize,
-                  (shapeCanvas.width / shapeContext.measureText(l).width) * 0.8 * fontSize, 
+                  (shapeCanvas.width / shapeContext.measureText(l).width) * 0.8 * fontSize,
                   (shapeCanvas.height / fontSize) * (isNumber(l) ? 1 : 0.45) * fontSize);
       setFontSize(s);
 
@@ -692,7 +692,7 @@ S.Shape = (function () {
 
           dots[i].s = false;
           dots[i].e = 0.04;
-          dots[i].move(new S.Point({ 
+          dots[i].move(new S.Point({
             x: Math.random() * a.w,
             y: Math.random() * a.h,
             a: 0.3, //.4
