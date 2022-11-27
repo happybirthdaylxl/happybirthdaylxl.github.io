@@ -5,6 +5,8 @@ body{
     -webkit-touch-callout:none; touch-callout:none;
 }
 html , body , .page_box{}
+.page{ background:url('http://43.140.220.166/img/shuban2.jpg') repeat-y; background-size:100%;}
+.
 .page.hide{display:none;}
 
 /*==================================*/
