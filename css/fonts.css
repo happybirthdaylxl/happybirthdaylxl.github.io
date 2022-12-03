@@ -12,8 +12,7 @@
 
 @font-face {
     font-family: 'ZzayB';
-    src: url('../fonts/ZzayB.woff2') format('woff2'),
-        url('../fonts/ZzayB.woff') format('woff');
+    src:url('../fonts/ZzayB.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
