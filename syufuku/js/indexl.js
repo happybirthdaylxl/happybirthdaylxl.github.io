@@ -19,7 +19,7 @@ var S = {
       S.Shape.render();
       //console.log(m);
       if(m==700){
-        window.location.href="http://http://43.140.220.166/syufuku/html/BirthdayCake.html";
+        window.location.href="https://happybirthdaylxl.ml/containertry/syufuku/BirthdayCake";
       }
     });
 
