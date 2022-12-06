@@ -30,7 +30,7 @@ layout: defaultforpost
                 <div class="post-heading">
                     <div class="tags">
                         {% for tag in page.tags %}
-                        <a class="tag" href="https://tolxl.ml/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+                        <a class="tag" href="https://tolxl.ml/tagclosing" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
                     <h1>{{ page.title }}</h1>
@@ -65,7 +65,7 @@ layout: defaultforpost
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="http://tolxl.ml/kantan.html" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
+                        <a href="http://tolxl.ml/kantan" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         Previous<br>
                         <span>{{page.previous.title}}</span>
                         </a>
@@ -73,7 +73,7 @@ layout: defaultforpost
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="http://tolxl.ml/kantan.html" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
+                        <a href="http://tolxl.ml/kantan" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next<br>
                         <span>{{page.next.title}}</span>
                         </a>
