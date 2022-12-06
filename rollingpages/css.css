@@ -9,7 +9,7 @@
 
 *{ margin:0px; padding:0px; box-sizing:border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 html{ max-width:640px; margin:0 auto;}
-body{ font-family:"smileysans";font-size:14px; line-height:1.5em; color:#212121;
+body{ font-family:"smileysans";font-size:28px; line-height:1.5em; color:#212121;
     -webkit-user-select:none; user-select:none;
     -webkit-touch-callout:none; touch-callout:none;
 }
