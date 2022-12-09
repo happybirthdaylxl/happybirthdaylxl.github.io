@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'smileysans';
+    src: url('http://43.140.220.166/rollingpages/smileysans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
