@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'smileysans';
-    src: url('../fonts/SmileySans.woff2') format('woff2');
+    src: url('./SmileySans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
