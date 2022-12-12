@@ -15,25 +15,25 @@
         <title>生日快乐，刘欣兰！</title>
 
         <!-- Web App Manifest -->
-        <link rel="manifest" href="http://43.140.220.166/pwa/manifest.json">
+        <link rel="manifest" href="http://47.109.67.41/pwa/manifest.json">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="http://43.140.220.166/img/favicon.ico">
+        <link rel="shortcut icon" href="http://47.109.67.41/img/favicon.ico">
 
         <!-- Safari Webpage Icon    by-BY -->
-        <link rel="apple-touch-icon" href="http://43.140.220.166/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="http://47.109.67.41/img/apple-touch-icon.png">
 
         <!-- Canonical URL -->
         <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
 
         <!-- Bootstrap Core CSS -->
-        <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: http://43.140.220.166}}">
+        <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: http://47.109.67.41}}">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ "/css/hux-blog.min.css" | prepend: http://43.140.220.166 }}">
+        <link rel="stylesheet" href="{{ "/css/hux-blog.min.css" | prepend: http://47.109.67.41 }}">
 
         <!-- Pygments Github CSS -->
-        <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: http://43.140.220.166 }}">
+        <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: http://47.109.67.41 }}">
 
         <!-- Custom Fonts -->
         <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -75,7 +75,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://43.140.220.166/" style="font-family:gilbert" >To Liu Xinlan</a>
+            <a class="navbar-brand" href="http://47.109.67.41/" style="font-family:gilbert" >To Liu Xinlan</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -152,7 +152,7 @@
 
 
     <!-- {{ content }}
-        <header class="intro-header" style="background-image: url('http://43.140.220.166/img/shuban2.jpg')">
+        <header class="intro-header" style="background-image: url('http://47.109.67.41/img/shuban2.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -178,7 +178,7 @@
                 <ul class="list-inline text-center">
                     {% if site.RSS %}
                     <li>
-                        <a href="{{ "/feed.xml" | prepend: http://43.140.220.166 }}">
+                        <a href="{{ "/feed.xml" | prepend: http://47.109.67.41 }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -278,13 +278,13 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: http://43.140.220.166 }}"></script>
+<script src="{{ "/js/jquery.min.js " | prepend: http://47.109.67.41 }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: http://43.140.220.166 }}"></script>
+<script src="{{ "/js/bootstrap.min.js " | prepend: http://47.109.67.41 }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/hux-blog.min.js " | prepend: http://43.140.220.166 }}"></script>
+<script src="{{ "/js/hux-blog.min.js " | prepend: http://47.109.67.41 }}"></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
@@ -336,7 +336,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async('{{ "/js/jquery.tagcloud.js" | prepend: http://43.140.220.166 }}',function(){
+        async('{{ "/js/jquery.tagcloud.js" | prepend: http://47.109.67.41 }}',function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -422,7 +422,7 @@
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
      * Fork by Hux to support padding
      */
-    async("{{ '/js/jquery.nav.js' | prepend: http://43.140.220.166 }}", function () {
+    async("{{ '/js/jquery.nav.js' | prepend: http://47.109.67.41 }}", function () {
         $('.catalog-body').onePageNav({
             currentClass: "active",
             changeHash: !1,
