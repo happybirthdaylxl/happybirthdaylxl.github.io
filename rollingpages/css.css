@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'smileysans';
-    src: url('http://47.109.67.41/rollingpages/smileysans.woff') format('woff');
+    src: url('./SmileySans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

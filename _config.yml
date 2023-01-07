@@ -5,7 +5,7 @@ header-img: img/mainpage.jpg
 email: none
 description: "生日快乐！"
 keyword: "Happy Birthday Liu Xinlan"
-url: "http://tolxl.ml/"          # your host, for absolute URL
+url: "https://tolxl.ml/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/happybirthdaylxl/happybirthdaylxl.github.io.git" # you code repository
 

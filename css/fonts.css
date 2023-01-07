@@ -5,7 +5,15 @@
 @font-face {
     font-family: 'gilbert';
     src: url('../fonts/gilbert.woff2') format('woff2'),
-         url('http://47.109.67.41/gilbert.woff') format('woff');
+         url('../fonts/gilbert.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZzayB';
+    src:url('../fonts/ZzayB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
